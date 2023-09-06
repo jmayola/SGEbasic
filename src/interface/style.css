@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.flex{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    flex-direction: column ;
+    place-items: center;
+    gap: 20px;
+}
